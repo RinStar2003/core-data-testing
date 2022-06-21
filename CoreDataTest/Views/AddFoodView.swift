@@ -17,7 +17,7 @@ struct AddFoodView: View {
     var body: some View {
         Form {
             Section {
-                TextField("Fool name", text: $name)
+                TextField("Food name", text: $name)
                 
                 VStack {
                     Text("Calories: \(Int(calories))")
